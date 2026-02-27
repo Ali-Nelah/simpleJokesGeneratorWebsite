@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Jokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="card">
+            <nav class="top-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link is-active" href="favorites.html">Favorites</a>
+            </nav>
+            <p class="badge">Saved Collection</p>
+            <h1>Favorite Jokes</h1>
+            <p class="favorites-subtitle">Your saved jokes stay here in this browser.</p>
+            <div class="actions">
+                <button id="clear-favorites-btn" class="button-secondary" type="button">Clear all</button>
+            </div>
+            <ul id="favorites-list" class="favorites-list"></ul>
+            <p id="empty-state" class="empty-state">No favorites yet. Save jokes from the home page.</p>
+        </section>
+    </main>
+
+    <script src="favorites.js"></script>
+</body>
+</html>

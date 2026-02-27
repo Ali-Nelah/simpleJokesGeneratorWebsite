@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+</head>
+<body>
+    <main class="page">
+        <section class="card">
+            <nav class="top-nav">
+                <a class="nav-link is-active" href="index.html">Home</a>
+                <a class="nav-link" href="favorites.html">Favorites</a>
+            </nav>
+            <p class="badge">Jokes Generator</p>
+            <h1>The Joke</h1>
+            <h2 class="joke-text">Click the button to load a joke.</h2>
+            <p class="feedback" aria-live="polite"></p>
+            <div class="actions">
+                <button id="get-joke-btn" type="button">Get a joke</button>
+                <button id="save-favorite-btn" class="button-secondary" type="button">Save to favorites</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="thejs.js"></script>
+</body>
+</html>
